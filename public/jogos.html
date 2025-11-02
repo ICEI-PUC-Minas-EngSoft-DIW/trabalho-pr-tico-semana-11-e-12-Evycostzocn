@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos - Infinity HUB</title>
+    <link rel="stylesheet" href="assets/css/jogos.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img alt="logo" src="img/logo-diw3.png">
+            <h1>Infinity HUB</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="jogos.html" class="active">Jogos</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Gerenciar Jogos</h2>
+
+        <!-- Formulário de cadastro -->
+        <section class="form-section">
+            <h3>Cadastrar Novo Jogo</h3>
+            <form id="formCadastro" autocomplete="off">
+                <div class="form-group">
+                    <label for="nome">Nome do jogo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Ex: God of War" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="genero">Gênero:</label>
+                    <input type="text" id="genero" name="genero" placeholder="Ex: Ação" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="descricao">Descrição:</label>
+                    <textarea id="descricao" name="descricao" placeholder="Breve resumo..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="ano">Ano de lançamento:</label>
+                    <input type="number" id="ano" name="ano" placeholder="Ex: 2018" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="avaliacao">Avaliação (0 a 10):</label>
+                    <input type="number" id="avaliacao" name="avaliacao" min="0" max="10" step="0.1" placeholder="Ex: 9.5" required>
+                </div>
+
+                <button type="submit" class="btn-submit">Salvar Jogo</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- Lista dinâmica dos jogos -->
+        <section>
+            <h3>Lista de Jogos</h3>
+            <div id="jogosList" class="jogos-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Infinity HUB. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="assets/scripts/db.js"></script>
+</body>
+</html>
+

@@ -1,33 +1,34 @@
 {
   "jogos": [
     {
-      "id": "2",
+      "id": 1,
       "nome": "God of War",
       "genero": "Ação",
-      "plataforma": "PS5",
       "ano": 2018,
       "descricao": "Acompanhe Kratos em uma jornada épica pela mitologia nórdica.",
-      "avaliacao": 9.6
+      "avaliacao": 9.6,
+      "imagem": "img/godofwar.jpg",
+      "destaque": true
     },
     {
-      "id": "3",
+      "id": 2,
       "nome": "Cyberpunk 2077",
       "genero": "RPG",
-      "plataforma": "PC",
       "ano": 2020,
       "descricao": "Vivencie uma aventura futurista em uma cidade caótica cheia de tecnologia.",
-      "avaliacao": 8.5
+      "avaliacao": 8.5,
+      "imagem": "img/cyberpunk2077.jpeg",
+      "destaque": true
     },
     {
-      "id": "30c7"
-    },
-    {
-      "id": 4,
+      "id": 3,
       "nome": "Red Dead Redemption 2",
       "genero": "Ação/Aventura",
       "ano": 2018,
-      "plataforma": "Playstation/Xbox/PC",
-      "classificacao": "17+"
+      "descricao": "Explore o Velho Oeste e viva uma narrativa épica cheia de detalhes e ação.",
+      "avaliacao": 10,
+      "imagem": "img/rdr2.jpeg",
+      "destaque": true
     }
   ]
 }

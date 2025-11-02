@@ -563,3 +563,61 @@ aside {
     font-size: 0.9rem;
   }
 }
+
+/* ====== FORMULÁRIO DE CADASTRO ====== */
+.form-cadastro {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #0a111b;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  color: #fff;
+}
+
+.form-cadastro h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+.form-cadastro input[type="text"],
+.form-cadastro input[type="number"],
+.form-cadastro input[type="email"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #1b1f2a;
+  color: #fff;
+}
+
+.form-cadastro input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.form-cadastro button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #ffd700;
+  color: #0a111b;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-cadastro button:hover {
+  background-color: #e5c100;
+}
+
+.form-cadastro label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  color: #fff;
+}
