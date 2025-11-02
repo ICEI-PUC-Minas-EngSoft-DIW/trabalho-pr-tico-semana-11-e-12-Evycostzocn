@@ -6,24 +6,24 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Evelyn de Paula Costa
+- Matricula: 904838
+- Proposta de projeto escolhida: Site de indicações de filmes, livros, séries e jogos.
+- Breve descrição sobre seu projeto: O InfinityHUB é um site que tem como objetivo trazer para os usuários boas recomendações de diferentes tipos de mídias digitais de acordo com um gênero.
 
 **Print dos testes da API com Postman ou similar**
 
-<< COLOQUE A IMAGEM GET AQUI >>
+![Imagem GET](public/img/getthundercliet.png)
 
-<< COLOQUE A IMAGEM POST AQUI >>
+![Imagem POST](public/img/posthunderclient.png)
 
-<< COLOQUE A IMAGEM PUT AQUI >>
+![Imagem PUT](public/img/put_thunderclient.png)
 
-<< COLOQUE A IMAGEM DELETE AQUI >>
+![Imagem DELETE](public/img/deletethunderclient.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR POST e GET**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Network](public/img/network.png)
 
 ## **Orientações Gerais**
 
