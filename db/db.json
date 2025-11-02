@@ -1,18 +1,33 @@
 {
-  "usuarios": [
+  "jogos": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": "2",
+      "nome": "God of War",
+      "genero": "Ação",
+      "plataforma": "PS5",
+      "ano": 2018,
+      "descricao": "Acompanhe Kratos em uma jornada épica pela mitologia nórdica.",
+      "avaliacao": 9.6
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "3",
+      "nome": "Cyberpunk 2077",
+      "genero": "RPG",
+      "plataforma": "PC",
+      "ano": 2020,
+      "descricao": "Vivencie uma aventura futurista em uma cidade caótica cheia de tecnologia.",
+      "avaliacao": 8.5
+    },
+    {
+      "id": "30c7"
+    },
+    {
+      "id": 4,
+      "nome": "Red Dead Redemption 2",
+      "genero": "Ação/Aventura",
+      "ano": 2018,
+      "plataforma": "Playstation/Xbox/PC",
+      "classificacao": "17+"
     }
   ]
 }
