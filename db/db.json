@@ -1,7 +1,7 @@
 {
   "jogos": [
     {
-      "id": 1,
+      "id": "1",
       "nome": "God of War",
       "genero": "Ação",
       "ano": 2018,
@@ -11,7 +11,7 @@
       "destaque": true
     },
     {
-      "id": 2,
+      "id": "2",
       "nome": "Cyberpunk 2077",
       "genero": "RPG",
       "ano": 2020,
@@ -21,7 +21,7 @@
       "destaque": true
     },
     {
-      "id": 3,
+      "id": "3",
       "nome": "Red Dead Redemption 2",
       "genero": "Ação/Aventura",
       "ano": 2018,
@@ -29,6 +29,22 @@
       "avaliacao": 10,
       "imagem": "img/rdr2.jpeg",
       "destaque": true
+    },
+    {
+      "id": "10ad",
+      "nome": "Uncharted 4",
+      "genero": "Ação",
+      "ano": 2016,
+      "descricao": "Dois irmãos saem em busca de um tesouro desconhecido",
+      "avaliacao": 9.4
+    },
+    {
+      "id": "4937",
+      "nome": "Days Gone",
+      "genero": "Ação",
+      "ano": 2019,
+      "descricao": "A história de Days Gone gira em torno de Deacon St. John, um motoqueiro e caçador de recompensas que tenta sobreviver na Terra dois anos após uma pandemia transformar a maior parte da humanidade em criaturas selvagens chamadas \"Frenéticos\".",
+      "avaliacao": 9
     }
   ]
 }
