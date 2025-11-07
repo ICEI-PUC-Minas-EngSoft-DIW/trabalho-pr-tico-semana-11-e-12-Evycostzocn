@@ -31,19 +31,19 @@
       "destaque": true
     },
     {
-      "id": "10ad",
+      "id": "4",
       "nome": "Uncharted 4",
       "genero": "Ação",
       "ano": 2016,
-      "descricao": "Dois irmãos saem em busca de um tesouro desconhecido",
+      "descricao": "Dois irmãos saem em busca de um tesouro desconhecido.",
       "avaliacao": 9.4
     },
     {
-      "id": "4937",
+      "id": "5",
       "nome": "Days Gone",
       "genero": "Ação",
       "ano": 2019,
-      "descricao": "A história de Days Gone gira em torno de Deacon St. John, um motoqueiro e caçador de recompensas que tenta sobreviver na Terra dois anos após uma pandemia transformar a maior parte da humanidade em criaturas selvagens chamadas \"Frenéticos\".",
+      "descricao": "Dois anos após uma pandemia devastadora, jogue com Deacon, um andarilho caçador de recompensas que luta para sobreviver e ao mesmo tempo procura uma razão para viver.",
       "avaliacao": 9
     }
   ]

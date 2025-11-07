@@ -55,20 +55,40 @@ function listarJogos() {
 }
 
 // ======== 2. FUNÇÃO PARA CADASTRAR JOGO (CREATE - POST) ========
-function cadastrarJogo(novoJogo) {
-    fetch(API_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(novoJogo)
-    })
-    .then(res => res.json())
-    .then(data => {
+async function cadastrarJogo(novoJogo) {
+    try {
+        // 1. Primeiro, buscar todos os jogos já cadastrados
+        const resposta = await fetch(API_URL);
+        const jogos = await resposta.json();
+
+        // 2. Encontrar o maior ID existente (convertendo para número)
+        const maiorId = jogos.length > 0
+            ? Math.max(...jogos.map(j => Number(j.id) || 0)) // evita NaN se algum id for string inválida
+            : 0;
+
+        // 3. Definir o próximo ID sequencial
+        novoJogo.id = (maiorId + 1).toString(); // mantém o formato string, igual no seu db.json
+
+        // 4. Fazer o POST com o novo jogo e o ID definido
+        const res = await fetch(API_URL, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(novoJogo)
+        });
+
+        if (!res.ok) throw new Error("Erro ao salvar o novo jogo.");
+
+        const data = await res.json();
+
         alert("Jogo cadastrado com sucesso!");
         formCadastro.reset();
         listarJogos();
-    })
-    .catch(err => console.error("Erro ao cadastrar jogo:", err));
+    } catch (err) {
+        console.error("Erro ao cadastrar jogo:", err);
+        alert("Ocorreu um erro ao cadastrar o jogo. Verifique o console para mais detalhes.");
+    }
 }
+
 
 // ======== 3. FUNÇÃO PARA ATUALIZAR JOGO (UPDATE - PUT) ========
 function atualizarJogo(id, jogoAtualizado) {
